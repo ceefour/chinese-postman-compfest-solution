@@ -9,7 +9,9 @@
           "name": "Debug chinese-postman-compfest-solution (GDB)",
           "target": "./chinese-postman-compfest-solution",
           "cwd": "${workspaceRoot}",
-          "valuesFormatting": "parseText"
+          "valuesFormatting": "parseText",
+          "console": "integratedTerminal",
+          "args": ["<", "case1.txt"]      
       }
   ]
 }
